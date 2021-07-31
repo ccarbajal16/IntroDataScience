@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<style>
+  table, td, th {
+      border-collapse: collapse;
+      font-family: sans-serif;
+  }
+
+  td, th {
+      border-bottom: 0;
+      padding: 4px
+  }
+
+  tr:nth-child(even) {
+      background: #242627 !important;
+      color: white;
+  }
+
+  tr:nth-child(odd) {
+      background: #363b3d !important;
+      color: white;
+  }
+
+  tr.header {
+      background: #000 !important;
+      color: #5fa6c2 !important;
+      font-weight: bold;
+  }
+
+  tr.subheader {
+      background: #242627 !important;
+      color: white;
+  }
+
+  tr.headerLastRow {
+      border-bottom: 2px solid black;
+  }
+
+  th.rowNumber, td.rowNumber {
+      text-align: right;
+  }
+
+</style>
+<body>
+<table>
+  <tr class = "header">
+    <th style = "text-align: right;">id</th>
+    <th style = "text-align: right;">nombre</th>
+    <th style = "text-align: right;">población</th>
+    <th style = "text-align: right;">ubigeo</th>
+  </tr>
+  <tr class = "subheader headerLastRow">
+    <th style = "text-align: right;">Int64</th>
+    <th style = "text-align: right;">String</th>
+    <th style = "text-align: right;">Int64</th>
+    <th style = "text-align: right;">String</th>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">29</td>
+    <td style = "text-align: right;">Huánuco</td>
+    <td style = "text-align: right;">84947</td>
+    <td style = "text-align: right;">100101</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">1</td>
+    <td style = "text-align: right;">Amarilis</td>
+    <td style = "text-align: right;">62418</td>
+    <td style = "text-align: right;">100102</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">14</td>
+    <td style = "text-align: right;">Chinchao</td>
+    <td style = "text-align: right;">16191</td>
+    <td style = "text-align: right;">100103</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">18</td>
+    <td style = "text-align: right;">Churubamba</td>
+    <td style = "text-align: right;">29163</td>
+    <td style = "text-align: right;">100104</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">40</td>
+    <td style = "text-align: right;">Margos</td>
+    <td style = "text-align: right;">10743</td>
+    <td style = "text-align: right;">100105</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">71</td>
+    <td style = "text-align: right;">Santa María del Valle</td>
+    <td style = "text-align: right;">21082</td>
+    <td style = "text-align: right;">100109</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">50</td>
+    <td style = "text-align: right;">Pillco Marca</td>
+    <td style = "text-align: right;">30600</td>
+    <td style = "text-align: right;">100111</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">2</td>
+    <td style = "text-align: right;">Ambo</td>
+    <td style = "text-align: right;">14626</td>
+    <td style = "text-align: right;">100201</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">70</td>
+    <td style = "text-align: right;">San Rafael</td>
+    <td style = "text-align: right;">11018</td>
+    <td style = "text-align: right;">100207</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">47</td>
+    <td style = "text-align: right;">Pachas</td>
+    <td style = "text-align: right;">10331</td>
+    <td style = "text-align: right;">100313</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">38</td>
+    <td style = "text-align: right;">Llata</td>
+    <td style = "text-align: right;">14736</td>
+    <td style = "text-align: right;">100501</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">45</td>
+    <td style = "text-align: right;">Monzón</td>
+    <td style = "text-align: right;">29800</td>
+    <td style = "text-align: right;">100507</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">62</td>
+    <td style = "text-align: right;">Rupa-Rupa</td>
+    <td style = "text-align: right;">44621</td>
+    <td style = "text-align: right;">100601</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">35</td>
+    <td style = "text-align: right;">José Crespo y Castillo</td>
+    <td style = "text-align: right;">20091</td>
+    <td style = "text-align: right;">100604</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">8</td>
+    <td style = "text-align: right;">Castillo Grande</td>
+    <td style = "text-align: right;">15597</td>
+    <td style = "text-align: right;">100608</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">28</td>
+    <td style = "text-align: right;">Huacrachuco</td>
+    <td style = "text-align: right;">16212</td>
+    <td style = "text-align: right;">100701</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">49</td>
+    <td style = "text-align: right;">Panao</td>
+    <td style = "text-align: right;">21837</td>
+    <td style = "text-align: right;">100801</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">11</td>
+    <td style = "text-align: right;">Chaglla</td>
+    <td style = "text-align: right;">11013</td>
+    <td style = "text-align: right;">100802</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">44</td>
+    <td style = "text-align: right;">Molino</td>
+    <td style = "text-align: right;">18315</td>
+    <td style = "text-align: right;">100803</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">80</td>
+    <td style = "text-align: right;">Umari</td>
+    <td style = "text-align: right;">12125</td>
+    <td style = "text-align: right;">100804</td>
+  </tr>
+</table>
+</body>
+</html>
