@@ -7,8 +7,21 @@ En esta oportunidad se desarrolló un código en el lenguaje Julia empleando el 
 Para reproducir el código elaborado se recomienda seguir los siguientes pasos:
 
 1. Clonar el repositorio en una carpeta local de su computador
-2. Iniciar Julia en la carpeta local usando el comando *`julia --project`*
-3. Ejecutar los siguientes comandos:
-   - julia> `using Pkg`
-   - julia> `Pkg.instantiate()`
-   - julia> `Pkg.status()`
+2. En un terminal iniciar Julia en la carpeta local usando *`julia`*
+3. Luego ejecutar los siguiente :
+   - julia> `]`
+   - (@v1.x)> `activate .`
+   - ("*SomeRepository*") pkg> `instantiate`
+   - ("*SomeRepository*") pkg> `status`
+
+Deberan tener la siguiente salida:
+
+[336ed68f] CSV v0.8.5
+
+[a93c6f00] DataFrames v1.2.1
+
+[1313f7d8] DataFramesMeta v0.8.0
+
+[7073ff75] IJulia v1.23.2
+
+[08abe8d2] PrettyTables v1.1.0
