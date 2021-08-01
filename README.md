@@ -11,7 +11,7 @@ Para reproducir el código elaborado se recomienda seguir los siguientes pasos:
 3. Luego ejecutar los siguiente :
 
    - julia> `]`
-   - (@v1.x)> `activate .`
+   - (@v1.x) pkg> `activate .`
    - ("*SomeRepository*") pkg> `instantiate`
    - ("*SomeRepository*") pkg> `status`
 
