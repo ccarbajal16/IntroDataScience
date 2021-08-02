@@ -17,6 +17,8 @@ Para reproducir el código elaborado se recomienda seguir los siguientes pasos:
 
 Al ejecutar `status` debería tener la siguiente salida:
 
+[c9ce4bd3] ArchGDAL v0.7.2
+
 [336ed68f] CSV v0.8.5
 
 [a93c6f00] DataFrames v1.2.1
