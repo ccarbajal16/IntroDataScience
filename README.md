@@ -2,6 +2,8 @@
 
 En esta oportunidad se desarrolló un código en el lenguaje Julia empleando el Notebook Jupyter. Se emplearon datos sobre población en una Región de Perú, los mismos que fueron obtenidos de diversas fuentes y su manejo inicial de los mismos fue realizada con QGIS. El detalle del procedimiento seguido desde un inicio lo pueden revisar aquí.
 
+![](qgis/map1.png)
+
 ### Instrucciones
 
 Para reproducir el código elaborado se recomienda seguir los siguientes pasos:
@@ -12,8 +14,8 @@ Para reproducir el código elaborado se recomienda seguir los siguientes pasos:
 
    - julia> `]`
    - (@v1.x) pkg> `activate .`
-   - ("*SomeRepository*") pkg> `instantiate`
-   - ("*SomeRepository*") pkg> `status`
+   - ("*SomeProject*") pkg> `instantiate`
+   - ("*SomeProject"*) pkg> `status`
 
 Al ejecutar `status` debería tener la siguiente salida:
 
