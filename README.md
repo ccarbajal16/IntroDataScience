@@ -1,6 +1,6 @@
 ## Introducción a la Ciencia de Datos con Julia
 
-En esta oportunidad se desarrolló un código en el lenguaje Julia empleando el Notebook Jupyter. Se emplearon datos sobre población en una Región de Perú, los mismos que fueron obtenidos de diversas fuentes y su manejo inicial de los mismos fue realizada con QGIS. El detalle del procedimiento seguido desde un inicio lo pueden revisar aquí.
+En esta oportunidad se desarrolló un código en el lenguaje Julia empleando el Notebook Jupyter. Se emplearon datos sobre población en una Región de Perú, los mismos que fueron obtenidos de diversas fuentes y su manejo inicial de los mismos fue realizada con QGIS. El detalle del procedimiento seguido desde un inicio lo pueden revisar [aquí](https://www.educagis.com/wpcarlos/2021/08/).
 
 ![](qgis/map1.png)
 
