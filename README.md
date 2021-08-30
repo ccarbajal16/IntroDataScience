@@ -30,3 +30,5 @@ Al ejecutar `status` debería tener la siguiente salida:
 [7073ff75] IJulia v1.23.2
 
 [08abe8d2] PrettyTables v1.1.0
+
+[612083be] Queryverse v0.7.0
